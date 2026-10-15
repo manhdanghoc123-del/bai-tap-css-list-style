@@ -1,0 +1,99 @@
+/* Styling chung cho trang */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+section {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: #0056b3;
+    text-align: center;
+}
+
+h2 {
+    color: #007bff;
+    font-size: 1.2rem;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+}
+
+/* Phần 2: list-style-type: square */
+.square-list {
+    list-style-type: square;
+}
+
+/* Phần 3: list-style-type: upper-roman */
+.roman-list {
+    list-style-type: upper-roman;
+}
+
+/* Phần 4: list-style-image 
+   Lưu ý: Thay 'check-icon.png' bằng đường dẫn hình ảnh icon của bạn (kích thước đề xuất: 16x16px) */
+.image-list {
+    list-style-image: url('check-icon.png');
+}
+
+/* Phần 5: list-style-position */
+.pos-outside {
+    list-style-position: outside;
+    background-color: #e9ecef;
+    padding: 10px 40px;
+}
+
+.pos-inside {
+    list-style-position: inside;
+    background-color: #e9ecef;
+    padding: 10px 40px;
+}
+
+/* Phần 6: Thuộc tính rút gọn list-style 
+   Cú pháp: list-style: [type] [position] [image]; */
+.shorthand-list {
+    list-style: circle inside;
+}
+
+/* Phần 7: Màu sắc và khoảng cách */
+.colored-list {
+    background-color: #e3f2fd;
+    padding: 20px 30px;
+    border-radius: 6px;
+    list-style-type: disc;
+}
+
+.colored-list li {
+    color: #0d47a1;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Phần 8: Bài tập tổng hợp - Lộ trình học lập trình Web */
+.roadmap-list {
+    /* Sử dụng thuộc tính rút gọn */
+    list-style: decimal inside;
+    
+    /* Đặt màu nền và khoảng cách cho toàn bộ danh sách */
+    background-color: #212529;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.roadmap-list li {
+    /* Đặt màu chữ và định kiểu cho các mục */
+    color: #f8f9fa;
+    background-color: #343a40;
+    margin: 8px 0;
+    padding: 10px 15px;
+    border-left: 4px solid #28a745;
+    border-radius: 4px;
+    font-weight: 500;
+}
